@@ -1,7 +1,8 @@
 {
   "index": "Introduction",
-  "get-started": "Get Started",
-  "features": "Features",
-  "themes": "Themes",
-  "advanced": "Advanced"
+  "commit": "Commit Message",
+  "styling": "Styling",
+  "react": "React",
+  "libraries": "Libraries",
+  "extension": "VSCode Extensions"
 }

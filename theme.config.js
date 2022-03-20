@@ -1,12 +1,12 @@
 export default {
-  github: 'https://github.com/shuding/nextra',
-  docsRepositoryBase: 'https://github.com/shuding/nextra/blob/master',
-  titleSuffix: ' – Nextra',
+  github: 'https://github.com/itishprasad30',
+  docsRepositoryBase: 'https://github.com/itishprasad30/docs',
+  titleSuffix: ' - docs.itish.dev',
   logo: (
     <>
-      <span className="mr-2 font-extrabold hidden md:inline">Nextra</span>
-      <span className="text-gray-600 font-normal hidden md:inline">
-        The Next.js Static Site Generator
+      <span className="hidden mr-2 font-extrabold md:inline">DOCS</span>
+      <span className="hidden font-normal text-gray-600 md:inline">
+        Itish Prasad's Documentation
       </span>
     </>
   ),
@@ -16,15 +16,24 @@ export default {
       <meta name="theme-color" content="#ffffff" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta httpEquiv="Content-Language" content="en" />
-      <meta name="description" content="Nextra: the Next.js site builder" />
-      <meta name="og:description" content="Nextra: the Next.js site builder" />
+      <meta
+        name="description"
+        content="Itish Prasadd’s documentation about practices on development"
+      />
+      <meta
+        name="og:description"
+        content="Itish Prasadd’s documentation about practices on development"
+      />
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:image" content="https://nextra.vercel.app/og.png" />
-      <meta name="twitter:site:domain" content="nextra.vercel.app" />
-      <meta name="twitter:url" content="https://nextra.vercel.app" />
-      <meta name="og:title" content="Nextra: Next.js static site generator" />
-      <meta name="og:image" content="https://nextra.vercel.app/og.png" />
-      <meta name="apple-mobile-web-app-title" content="Nextra" />
+      <meta name="twitter:image" content="https://docs.thcl.dev/og.jpg" />
+      <meta name="twitter:site:domain" content="docs.thcl.dev" />
+      <meta name="twitter:url" content="https://docs.thcl.dev/" />
+      <meta name="og:title" content="Docs - theodorusclarence" />
+      <meta name="og:image" content="https://docs.thcl.dev/og.jpg" />
+      <meta
+        name="apple-mobile-web-app-title"
+        content="Docs - theodorusclarence"
+      />
       <link
         rel="apple-touch-icon"
         sizes="180x180"
@@ -55,6 +64,13 @@ export default {
         href="/favicon-16x16.png"
       />
       <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+      {/* <script
+        async
+        defer
+        data-website-id="a1ad7cb6-4189-4930-aa8e-34a0fef859a8"
+        src="https://umami.thcl.dev/umami.js"
+        data-domains="docs.thcl.dev"
+      /> */}
     </>
   ),
   search: true,
@@ -62,6 +78,18 @@ export default {
   nextLinks: true,
   footer: true,
   footerEditLink: 'Edit this page on GitHub',
-  footerText: <>MIT {new Date().getFullYear()} © Nextra.</>,
+  footerText: (
+    <>
+      © {new Date().getFullYear()}{' '}
+      <a
+        href="https://itishprasad-in.vercel.app"
+        target="_blank"
+        rel="noopener"
+      >
+        Itish Prasad
+      </a>
+      .
+    </>
+  ),
   unstable_faviconGlyph: '👋',
 }
