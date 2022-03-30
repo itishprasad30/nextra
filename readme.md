@@ -1,3 +1,4 @@
-## Personal Doc
+## Personal Documentainon Powered By Nextra
 
-### thought about web development
+> Thought about learning web development and process.
+> also some extra documentation for the Library that i am using.
